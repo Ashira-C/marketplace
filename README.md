@@ -23,6 +23,18 @@ Backend system for a marketplace application built with Spring Boot.
 
 ---
 
+## API Testing
+
+### Create Product
+
+![](src/main/resources/images/create-product.png)
+
+### Get Products
+
+![](src/main/resources/images/get-products.png)
+
+---
+
 ## Author
 
 Ashira Chansawang
