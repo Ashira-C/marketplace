@@ -15,4 +15,10 @@ public class AuthController {
     public User register(@RequestBody User user) {
         return userService.register(user);
     }
+
+    @PostMapping("/login")
+    public String login(@RequestBody User user) {
+        User LoggedInUser = userService.login(user.getEmail(),  user.getPassword());
+        return "LOGIN SUCCESS";
+    }
 }
