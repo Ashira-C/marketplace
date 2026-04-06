@@ -35,6 +35,16 @@ Backend system for a marketplace application built with Spring Boot.
 
 ---
 
+## User Registration
+
+### Register
+![](src/main/resources/images/register.png)
+
+### Database
+![](src/main/resources/images/register-db.png)
+
+---
+
 ## Author
 
 Ashira Chansawang
