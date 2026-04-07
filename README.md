@@ -34,6 +34,9 @@ Backend system for a marketplace application built with Spring Boot.
 ![](src/main/resources/images/register.png)
 ![](src/main/resources/images/register-db.png)
 
+### Login (JWT)
+![](src/main/resources/images/login-jwt.png)
+
 ---
 
 ## Author
