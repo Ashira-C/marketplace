@@ -28,19 +28,10 @@ Backend system for a marketplace application built with Spring Boot.
 ### Create Product
 
 ![](src/main/resources/images/create-product.png)
-
-### Get Products
-
 ![](src/main/resources/images/get-products.png)
-
----
-
-## User Registration
 
 ### Register
 ![](src/main/resources/images/register.png)
-
-### Database
 ![](src/main/resources/images/register-db.png)
 
 ---
