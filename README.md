@@ -1,4 +1,4 @@
-# Marketplace Backend
+# Marketplace Order & Payment Engine
 
 Backend system for a marketplace application built with Spring Boot.
 
@@ -26,7 +26,6 @@ Backend system for a marketplace application built with Spring Boot.
 ## API Testing
 
 ### Create Product
-
 ![](src/main/resources/images/create-product.png)
 ![](src/main/resources/images/get-products.png)
 
@@ -36,6 +35,12 @@ Backend system for a marketplace application built with Spring Boot.
 
 ### Login (JWT)
 ![](src/main/resources/images/login-jwt.png)
+
+### Get Products
+#### Without Token (Unauthorized)
+![](src/main/resources/images/get-products(no token).png)
+#### With Token (Authorized)
+![](src/main/resources/images/get-products(token).png)
 
 ---
 
