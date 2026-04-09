@@ -16,10 +16,42 @@ Backend system for a marketplace application built with Spring Boot.
 
 ## Features
 
-* User Authentication (Register / Login)
-* Product Management
-* Cart System
-* Order System
+* JWT Authentication (Register / Login)
+* Product Management (CRUD + Stock Handling)
+* Order Management System
+    - Create Order
+    - Calculate Total Price
+    - Order Status (PENDING, PAID, CANCELLED)
+* Payment Simulation (Mock Payment Flow)
+* Transaction Handling (Data Consistency)
+
+---
+
+## System Overview
+
+This system handles:
+
+User → Order → Payment → Database
+
+Flow:
+1. User creates order
+2. System checks product stock
+3. Calculates total price
+4. Creates order with PENDING status
+5. User performs payment
+6. System updates order status to PAID or CANCELLED
+
+---
+
+## How to Run
+
+1. Clone repository
+2. Setup MySQL database
+3. Update application.properties
+4. Run Spring Boot application
+
+Server will start at:
+http://localhost:8080
 
 ---
 
