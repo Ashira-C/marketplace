@@ -70,7 +70,7 @@ http://localhost:8080
 
 ### Get Products
 #### Without Token (Unauthorized)
-![](src/main/resources/images/get-products(no token).png)
+![](src/main/resources/images/get-products(no-token).png)
 #### With Token (Authorized)
 ![](src/main/resources/images/get-products(token).png)
 
